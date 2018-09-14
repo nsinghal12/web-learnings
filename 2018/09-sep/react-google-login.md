@@ -81,15 +81,13 @@ which provides access to all of the `GoogleUser` methods listed here: https://de
 You can also access the returned values via the following properties on 
 the returned object.
 
-|-------------|-----------|--------------------------
-|  Attribute  | Type      | Details
-|-------------|-----------|--------------------------
-| googleId    | string    | Google user ID
-| tokenObj    | object    | Token details object
-| profileObj  | object    | Profile details object
-| tokenId     | string    | Token Id
-| accessToken | string    | Access Token
-|-------------|-----------|--------------------------
+ Attribute  | Type      | Details
+------------|-----------|--------------------------
+googleId    | string    | Google user ID
+tokenObj    | object    | Token details object
+profileObj  | object    | Profile details object
+tokenId     | string    | Token Id
+accessToken | string    | Access Token
 
 Over, to the authentication failure handler:
 
@@ -102,12 +100,10 @@ onGoogleFailure = (error) => {
 In case Google authentication fails, the error callback receives an `error` object
 with the following properties:
 
-|-------------|---------|--------------------------
-| Attribute   | Type    | Details
-|-------------|---------|--------------------------
-| error       | string  | Error code
-| details     | string  | Detailed error description
-|-------------|---------|--------------------------
+Attribute   | Type    | Details
+------------|---------|--------------------------
+error       | string  | Error code
+details     | string  | Detailed error description
 
 To add the Sign-out button, we just need to remove the Google profile from the
 component state as:
