@@ -33,10 +33,7 @@ Once we have configured the Google Calendar API access in our Google project,
 we now just need to invoke the Google Calendar API when needed (post user-sign-in
 event).
 
-Let's add a convenience method to our `Utils.js` file to create a new event
-whenever we have the need to schedule one:
-
-The following value-object class `Meeting` can be used to send our
+The following value-object class `MeetingInfo` can be used to send our
 new event information:
 
 ```js
@@ -62,6 +59,9 @@ export default class MeetingInfo {
 
 }
 ```
+
+Next add a convenience method to a `Utils.js` file to create a new event
+whenever we have the need to schedule one:
 
 ```js
 export default class Utils {
