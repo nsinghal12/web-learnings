@@ -5,7 +5,7 @@ Centrally display modal windows in React
 # Solution
 
 Displaying modal windows is essential to any web application
-today. They are used from authenticaion to payments to alerts
+today. They are used from authentication to payments to alerts
 and more. React provides a way to display modal windows using
 [React Portals](https://reactjs.org/docs/portals.html).
 
