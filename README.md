@@ -9,6 +9,7 @@ in NodeJS, React, jQuery and more.
 * [Using Google Calendar in React](https://github.com/nsinghal12/react-learnings/blob/master/2018/09-sep/react-google-calendar.md)
 * [Build a declarative if component](https://github.com/nsinghal12/web-learnings/blob/master/2018/09-sep/declarative-if-component.md)
 * [Declarative group component](https://github.com/nsinghal12/web-learnings/blob/master/2018/09-sep/declarative-group-component.md)
+* [Modal Windows in React](https://github.com/nsinghal12/web-learnings/blob/master/2018/09-sep/modal-windows-react.md)
 
 ## License
 
