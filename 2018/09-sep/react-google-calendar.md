@@ -102,8 +102,13 @@ export default class Utils {
         };
 
         // let's add all our attendees to the meeting
-        for(let index = 0; index < meeting.attendees; index++) {
-            event.attendees.push(meeting.attendees[index]);
+        for(let index = 0; index < meeting.attendees.length; index++) {
+            const guest = {
+                email: meeting.attendees[index],
+                optional: false,
+            };
+            
+            event.attendees.push(guest);
         }
 
         // https://developers.google.com/calendar/v3/reference/events/insert
